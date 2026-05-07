@@ -22,6 +22,18 @@ nav{
     background:#111827;
       box-shadow: 0 5px 20px rgba(0,0,0,0.3);
 }
+
+.profile-box span {
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 10px;
+}
 .logo{
     color:gold;
 }

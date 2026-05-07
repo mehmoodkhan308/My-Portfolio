@@ -23,16 +23,11 @@ nav{
       box-shadow: 0 5px 20px rgba(0,0,0,0.3);
 }
 
-.profile-box span {
-  width: 60px;
-  height: 60px;
-  border: 2px solid white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
+top-profolilo-heading{
+  font-size: 40px;
   font-weight: bold;
-  border-radius: 10px;
+  text-align: center;
+  letter-spacing: 2px;
 }
 .logo{
     color:gold;

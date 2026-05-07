@@ -28,10 +28,9 @@ top-profolilo-heading{
   font-weight: bold;
   text-align: center;
   letter-spacing: 2px;
+   color:#38bdf8;
 }
-.logo{
-    color:gold;
-}
+
 nav ul{
     display: flex;
     list-style: none;

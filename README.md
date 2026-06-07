@@ -34,3 +34,9 @@ This project was built to practice frontend development skills and create a pers
 Mehmood Rashid
 Frontend Developer | HTML | CSS | JavaScript | Supabase
 
+## 📬 Contact
+
+- 📧 Email: mehmoodrashid123456@gmail.com  
+- 💼 Fiverr: http://www.fiverr.com/s/1q8Kbxe
+- 💼 LinkedIn: https://www.linkedin.com/in/mehmood-rashid-a9488540a/
+

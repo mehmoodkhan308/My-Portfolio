@@ -1,6 +1,25 @@
-function toggleMenu() {
-    document.getElementById("menu").classList.toggle("show");
-}
+document.addEventListener("DOMContentLoaded", () => {
+    const menu = document.querySelector("nav ul");
+    const btn = document.querySelector(".toggelbtn");
+
+    btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        menu.classList.toggle("show");
+    });
+
+    document.querySelectorAll("nav ul a").forEach(link => {
+        link.addEventListener("click", () => {
+            menu.classList.remove("show");
+        });
+    });
+
+    document.addEventListener("click", (e) => {
+        if (!menu.contains(e.target) && !btn.contains(e.target)) {
+            menu.classList.remove("show");
+        }
+    });
+});
+
 
 
 let words = ["Frontend Developer", "Web Designer", "Freelancer"];
